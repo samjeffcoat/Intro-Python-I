@@ -1,3 +1,4 @@
+import os
 """
 In this exercise, you'll be playing around with the sys module,
 which allows you to access many system specific variables and
@@ -17,9 +18,8 @@ print(sys.platform)
 
 # Print out the version of Python you're using:
 # YOUR CODE HERE
-print (sys.version)
+print(sys.version)
 
-import os
 # See the docs for the OS module: https://docs.python.org/3.7/library/os.html
 
 # Print the current process ID

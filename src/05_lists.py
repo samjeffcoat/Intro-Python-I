@@ -33,4 +33,4 @@ print(len(x))
 # YOUR CODE HERE
 print(x)
 for i in range(len(x)):
-  print(x[i] * 1000)
+    print(x[i] * 1000)
