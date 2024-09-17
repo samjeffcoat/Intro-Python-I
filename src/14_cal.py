@@ -22,3 +22,17 @@ and does the following:
 import sys
 import calendar
 from datetime import datetime
+
+calendar.setfirstweekday(0)
+
+cal = calendar.Calendar()
+
+def makeCalendar(*args):
+  year = int(str(datetime.today())[:4])
+  month = int(str(datetime.today())[5:7])
+  if len(args) >1:
+    print(calendar.TextCalendar(firstweekday= 0).formatmonth(int(args[1]), int(args[0])))
+
+
+
+print(makeCalendar(*sys.argv[1:]))
